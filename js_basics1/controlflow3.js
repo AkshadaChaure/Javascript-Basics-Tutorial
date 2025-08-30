@@ -1,4 +1,4 @@
-const userEmail = []
+const userEmail = [];
 
 if (userEmail) {
     console.log("Got user email");
@@ -13,9 +13,9 @@ if (userEmail) {
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
 
-// if (userEmail.length === 0) {
-//     console.log("Array is empty");
-// }
+if (userEmail.length === 0) {
+    console.log("Array is empty");
+}
 
 const emptyObj = {}
 
@@ -29,7 +29,7 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+// val1 = null ?? 10 ?? 20
 
 
 
